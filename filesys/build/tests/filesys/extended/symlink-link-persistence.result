@@ -1,0 +1,5 @@
+FAIL
+Error extracting file system:
+//link_a: open failed
+//link_b: open failed
+//link_c: open failed

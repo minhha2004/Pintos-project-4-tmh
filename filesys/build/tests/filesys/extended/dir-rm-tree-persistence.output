@@ -1,0 +1,38 @@
+c[?7l[2J[0mSeaBIOS (version 1.15.0-1)
+
+
+iPXE (https://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+0FF8B4A0+0FECB4A0 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk..Kernel command line: -q run 'tar fs.tar /' get fs.tar
+0 ~ 9fc00 1
+100000 ~ ffe0000 1
+Pintos booting with: 
+	base_mem: 0x0 ~ 0x9fc00 (Usable: 639 kB)
+	ext_mem: 0x100000 ~ 0xffe0000 (Usable: 260,992 kB)
+Calibrating timer...  235,520,000 loops/s.
+hd0: unexpected interrupt
+hd0:0: detected 353 sector (176 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1: unexpected interrupt
+hd1:0: detected 2,048 sector (1024 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+hd1:1: detected 8,064 sector (3 MB) disk, model "QEMU HARDDISK", serial "QM00004"
+Boot complete.
+Executing 'tar fs.tar /':
+tar: exit(0)
+Execution of 'tar' complete.
+Getting 'fs.tar' from the file system...
+Total Memory: 104857600 bytes
+Used Memory: 0 bytes
+Free Memory: 104857600 bytes
+Timer: 207 ticks
+Thread: 36 idle ticks, 31 kernel ticks, 140 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 684 reads, 305 writes
+hd1:0: 0 reads, 267 writes
+hd1:1: 0 reads, 0 writes
+Console: 1009 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...
